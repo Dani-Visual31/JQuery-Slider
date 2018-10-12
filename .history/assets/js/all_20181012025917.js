@@ -67,6 +67,7 @@
       show_img();
 
    });
+
   $('.button').click(function(){
     $(".button").toggleClass('active');
     if($(".button").hasClass('active')){
