@@ -1,6 +1,9 @@
 /**
  * Created by Danish on 10/10/2018.
-*/
+ */
+
+ 
+
  $(document).ready(function jQuery(){
    var imgs = $("#image").find("img");
    var current_img = 1;
