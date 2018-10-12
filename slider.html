@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="_custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+<div class="main-slider" >
+  <div class="left">
+      <button type="button" class="btn"><i id="prev" class="fas fa-angle-left"></i></button>
+  </div>
+    <div id="image" class="center">
+      <div class="slide">
+          <img class="slide_1" src="assets/images/1.jpeg">
+      </div>
+       <div class="slide">
+           <img class="slide_2" src="assets/images/2.jpeg" hidden="hidden">
+       </div>
+        <div class="slide">
+            <img class="slide_3" src="assets/images/3.jpeg" hidden="hidden">
+        </div>
+        <div class="slide">
+            <img class="slide_4" src="assets/images/4.jpeg" hidden="hidden">
+        </div>
+        <div class="slide">
+            <img class="slide_5" src="assets/images/5.jpeg" hidden="hidden">
+        </div>
+        <div class="slide">
+            <img class="slide_6" src="assets/images/6.jpg" hidden="hidden">
+        </div>
+    </div>
+  <div class="right">
+       <button type="button" class="btn"><i id="next" class="fas fa-angle-right"></i></button>
+  </div>
+</div>
+<div class="btn-groups">
+    <div class="slide-nav">
+        <ul id="navList">
+            <li class="bullet current"></li>
+            <li class="bullet"></li>
+            <li class="bullet"></li>
+            <li class="bullet"></li>
+            <li class="bullet"></li>
+            <li class="bullet"></li>
+        </ul>
+    </div>
+</div>
+<button class="button" id="pause">Pause</button>
+<script src="assets/js/jQuery.min.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/all.js"></script>
+</body>
+</html>
